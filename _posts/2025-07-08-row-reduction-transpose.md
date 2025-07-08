@@ -43,7 +43,7 @@ We perform a sequence of row operations to take $M \rightarrow M'$, or $[A \mid 
 
 __Proposition.__ The systems $A'X = B$ and $AX = B$ have the same solutions.
 
-_Proof._ Set $P:= E_1\dots E_n,$ the row operations acting on $M$. Thus, it follows that $M' = PM.$ The rest follows easily.
+_Proof._ Set $P:= E_1\dots E_n,$ the row operations acting on $M$. Thus, it follows that $M' = PM.$ The rest follows easily. $\square$
 
 __Remark.__ Choosing some $c := x_n$, where $x_n$ was one of the varaibles, works nice to solve stuff.
 
@@ -65,11 +65,11 @@ Every _homogeneous_ linear equation $AX=0$ has the _trivial_ solution $X=0$. If 
 
 __Corollary__ We alkso have that every system $AX=0$ with $m$ homogeneous equations with $n$ variables for $m < n$ has a solution $X$ for which $x_i$ is nonzero.
 
-_Proof._ The proof hinges on the fact that $A'X = 0$ has the same number of solutions, so the number of pivots is at more $m$, and thus less than $n$, hence the corollary follows.
+_Proof._ The proof hinges on the fact that $A'X = 0$ has the same number of solutions, so the number of pivots is at more $m$, and thus less than $n$, hence the corollary follows. $\square$
 
 __Lemma.__ A square echelon matrix $M$ is either the identity matrix $I$, or its bottom row is zero.
 
-_Proof._ Assume $M$ is a $n\times n$ echelon matrix. Then, since there are $n$ columns, there are at most $n$ pivots. If there are $n$ pivots, then there is one in each column, so $M=I$, otherwise, some row is $0$, so the bottom row is also $0$.
+_Proof._ Assume $M$ is a $n\times n$ echelon matrix. Then, since there are $n$ columns, there are at most $n$ pivots. If there are $n$ pivots, then there is one in each column, so $M=I$, otherwise, some row is $0$, so the bottom row is also $0$. $\square$
 
 We have that the following three statements are equal for some square matrix $A$ (but we will not prove this):
 
