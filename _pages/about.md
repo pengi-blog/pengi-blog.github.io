@@ -9,4 +9,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a sophomore who enjoys playing spikeball, frisbee, and badminton with friends, listening to music, and this website is my blog.
+I am a sophomore who enjoys playing {spikeball, frisbee, badminton} with friends, listening to music, and this website is my blog.
