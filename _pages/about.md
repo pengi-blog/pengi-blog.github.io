@@ -9,4 +9,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I am a sophomore interested in math, computer science, and a bit of physics and chemistry. In my free time, I like to play spikeball, frisbee, and badminton with my friends, and listen to music. This website is for my blog. 
+I am a sophomore who enjoys playing spikeball, frisbee, and badminton with friends, listening to music, and this website is my blog.
