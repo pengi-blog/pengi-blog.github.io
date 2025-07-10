@@ -27,17 +27,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/row-reduction-transpose/";
           
         },
-      },{id: "post-basic-matrix-operations-artin-1-1",
-        
-          title: "basic matrix operations (artin 1.1)",
-        
-        description: "yay artin",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/matrices-the-basic-operations/";
-          
-        },
       },{id: "post-first-post",
         
           title: "first post",
