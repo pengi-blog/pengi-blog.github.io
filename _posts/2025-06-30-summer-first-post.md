@@ -3,7 +3,7 @@ layout: post
 title: first post
 date: 2025-06-30
 description: first post! 
-featured = true 
+featured: true 
 tags: other
 ---
 
