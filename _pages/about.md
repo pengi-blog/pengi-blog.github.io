@@ -9,4 +9,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a sophomore who enjoys playing any of {spikeball, frisbee, badminton} with friends, listening to music, and this website is my blog.
+Hi! I am a rising sophomore who is interested in math/cs/astronomy. In my free time, I like to watch sports (mostly soccer- go arsenal!) and play sports with my friends. 
