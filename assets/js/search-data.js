@@ -16,15 +16,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-first-post",
+        },{id: "post-",
         
-          title: "first post",
+          title: "",
         
-        description: "experiences with summer before sophmore year",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/summer-first-post/";
+            window.location.href = "/blog/2025/2025-06-30-summer-first-post/";
           
         },
       },{id: "books-the-godfather",
