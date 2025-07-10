@@ -24,17 +24,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/first-post/";
-          
-        },
-      },{id: "post-first-post",
-        
-          title: "first post",
-        
-        description: "first post!",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2025/summer-first-post/";
           
         },
