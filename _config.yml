@@ -54,7 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 750px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: ak4774s blog # blog_name will be displayed in your blog page
-blog_description: on mathematics and other stuff
+blog_name: 3am thoughts # blog_name will be displayed in your blog page
+blog_description: math & astronomy
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
