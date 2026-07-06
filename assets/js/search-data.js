@@ -16,18 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-compilation-of-my-favorite-logic-problems",
-        
-          title: "Compilation of my Favorite Logic Problems",
-        
-        description: "Some of my favorite logic problems that I&#39;ve seen over the last couple years.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/logic-problems-comp/";
-          
-        },
-      },{id: "post-first-post",
+        },{id: "post-first-post",
         
           title: "first post",
         
@@ -35,7 +24,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/summer-first-post/";
+            window.location.href = "/blog/2026/first-post/";
           
         },
       },{id: "books-the-godfather",
