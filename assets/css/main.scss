@@ -23,3 +23,63 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Gojo-style domain expansion on the home page.
+#domain-expansion-background {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+  opacity: 1;
+}
+
+#domain-trigger {
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  padding: 0.75rem 1.1rem;
+  border: 1px solid rgba(104, 190, 255, 0.75);
+  border-radius: 999px;
+  background: rgba(0, 35, 90, 0.78);
+  color: #d9f2ff;
+  box-shadow: 0 0 22px rgba(0, 102, 255, 0.35);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  touch-action: none;
+  user-select: none;
+}
+
+#domain-trigger:active,
+#domain-trigger.is-held {
+  background: rgba(0, 102, 255, 0.9);
+  box-shadow: 0 0 34px rgba(80, 190, 255, 0.8);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  #domain-trigger {
+    bottom: 1rem;
+    font-size: 0.72rem;
+  }
+}
+
+body > header,
+body > .container,
+body > footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #domain-expansion-background {
+    opacity: 0.62;
+  }
+}

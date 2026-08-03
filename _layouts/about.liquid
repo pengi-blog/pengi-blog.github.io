@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<div id="domain-expansion-background" aria-hidden="true"></div>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -78,3 +80,10 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<button id="domain-trigger" type="button" aria-label="Hold to activate domain expansion" aria-pressed="false">
+  hold domain expansion
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="{{ '/assets/js/gojo-domain.js' | relative_url | bust_file_cache }}"></script>
